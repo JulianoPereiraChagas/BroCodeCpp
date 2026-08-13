@@ -7,7 +7,7 @@ std::string name;
 std::cout << "Enter your name: ";
 std::getline(std::cin, name);
 
-name.insert(1,"@");
+name.erase(0, 3);
 
 std::cout << name;
 
