@@ -17,11 +17,11 @@ else{
 
 number % 2 == 1 ? std::cout << "ODD" : std::cout << "EVEN"; */
 
-bool hungry = false;
+bool hungry = true;
 
 // hungry ? std::cout << "You are hungry" : std::cout << "You are full";
 
-
+std::cout << (hungry ? "You are hungry" : "You are full");
 
     return 0;
 }
