@@ -2,7 +2,7 @@
 
 int main() {
 
-for(int i = 1; i <= 5 ; i++ ){
+for(int i = 10; i >= 0 ; i-=2 ){
     std::cout << i << '\n';
     
 }
